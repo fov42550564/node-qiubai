@@ -1,6 +1,6 @@
 {
-  "name": "qiubai",
-  "version": "0.0.4",
+  "name": "node-qiubai",
+  "version": "0.0.0",
   "author": {
     "name": "YunJiang.Fang"
   },
@@ -19,9 +19,5 @@
   "dependencies": {
 	  "jsdom": "*"
   },
-  "license": "MIT",
-  "readme": "Copyright (c) 2013 YunJiang.Fang contributors (listed above).\n\nNative Abstractions for Node.js is licensed under an MIT +no-false-attribs license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.\n\nnpm install qiubai\ncd node_modules/jsdom/node_modules/contextify\nnw-gyp rebuild\ncd node_modules/qiubai\nnw qiubai\n",
-  "readmeFilename": "README.md",
-  "_id": "qiubai@0.0.3",
-  "_from": "qiubai@"
+  "license": "MIT"
 }
