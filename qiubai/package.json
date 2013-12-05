@@ -1,0 +1,9 @@
+{
+	"name":"qiubai",
+	"main":"index.html",
+	"window":{
+		"width":400,
+		"height":500
+	},
+	"toolbar":false
+}
