@@ -21,7 +21,17 @@ $ pushd .
 $ cd node_modules/jsdom/node_modules/contextify
 $ nw-gyp rebuild
 $ popd
-$ nw .
+$ nw node-qiubai
+```
+
+use npm in global
+``` bash
+$ sudo npm install node-qiubai -g
+$ cd $NODE_PATH
+$ cd node_modules/jsdom/node_modules/contextify
+$ sudo nw-gyp rebuild
+$ cd ~
+$ nw `node -e "require('node-mqiubai')"`
 ```
 
 use github
